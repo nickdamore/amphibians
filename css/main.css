@@ -83,4 +83,12 @@ a:hover {
     margin-left: 1em;
     margin-bottom: 1em;
   }
+  .it-ie9 .col-big {
+    background: red;
+    
+    img { 
+    -webkit-transform: rotate(30deg);
+      -ms-transform: rotate(30deg);
+          transform: rotate(30deg);
+}
 }
